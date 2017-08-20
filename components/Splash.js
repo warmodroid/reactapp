@@ -56,4 +56,4 @@ const styles = StyleSheet.create({
 
 });
 
-AppRegistry.registerComponent('Splash', () => Splash);
+AppRegistry.registerComponent('Splash', () => ganesha);

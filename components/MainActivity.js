@@ -16,4 +16,4 @@ export default class MainActivity extends Component {
   }
 }
 
-AppRegistry.registerComponent('MainActivity', () => MainActivit);
+AppRegistry.registerComponent('MainActivity', () => MainActivity);

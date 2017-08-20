@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
-import Splash from './android/components/Splash';
+import Splash from './components/Splash';
 
 export default class ganesha extends Component {
 
