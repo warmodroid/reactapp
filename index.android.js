@@ -1,32 +1,32 @@
 import React, { Component } from 'react';
 import {
   AppRegistry,
-  Text,
   StyleSheet,
+  Text,
   View,
-  Navigator
+  TouchableOpacity,
+  Button
 } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-
-import Splash from './components/Splash';
+import MainScreenNavigator from './components/route';
 
 export default class ganesha extends Component {
-
+  constructor(props){
+      super(props)
+  }
   render() {
     return (
-      <View style={styles.mainViewStyle}>
-            <Splash/>
-      </View>
+            <MainScreenNavigator/>
     );
   }
 }
 
 const styles = StyleSheet.create({
   mainViewStyle: {
-    backgroundColor: 'rgb(60, 162, 156)',
+    //backgroundColor: 'rgb(60, 162, 156)',
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
+    flexDirection: 'column',
+    //alignItems: 'center',
+    //justifyContent: 'center'
   },
 });
 
