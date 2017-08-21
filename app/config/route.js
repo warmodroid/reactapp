@@ -6,8 +6,8 @@ import {
       View
     } from 'react-native';
 
-import MainActivity from './MainActivity';
-import Splash from './Splash';
+import MainActivity from '../components/MainActivity';
+import Splash from '../components/Splash';
 
 
   const MainScreenNavigator = StackNavigator({

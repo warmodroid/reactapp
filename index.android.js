@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Button
 } from 'react-native';
-import MainScreenNavigator from './components/route';
+import MainScreenNavigator from './app/config/route';
 
 export default class ganesha extends Component {
   constructor(props){
